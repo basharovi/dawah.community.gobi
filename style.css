@@ -1,0 +1,50 @@
+/* style.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 60px 0;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.list-group-item {
+  font-size: 1.1rem;
+  border: none;
+  background-color: transparent;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #444;
+}
+
+.rounded-circle {
+  object-fit: cover;
+}
+
+footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 576px) {
+  .navbar-brand span {
+    display: none;
+  }
+}
