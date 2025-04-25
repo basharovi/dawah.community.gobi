@@ -31,8 +31,8 @@ document.addEventListener("DOMContentLoaded", () => {
       role: "যুগ্ম আহবায়ক",
     },
     {
-      img: "images/members/no_image.jpg",
-      name: "মাওলানা আবদুল্লাহ আল মাহমুদ",
+      img: "images/members/abdullah.jpg",
+      name: "মাওলানা আবদুল্লাহ",
       role: "যুগ্ম আহবায়ক",
     },
     {
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
       role: "কার্যকরী সদস্য",
     },
     {
-      img: "images/members/no_image.jpg",
+      img: "images/members/shahi.jpg",
       name: "মোহাম্মদ শাহী",
       role: "কার্যকরী সদস্য",
     },
