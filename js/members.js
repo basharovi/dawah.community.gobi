@@ -1,44 +1,26 @@
-// script.js
-
-document.addEventListener("DOMContentLoaded", function () {
-  // Smooth scroll for anchor links
-  const navLinks = document.querySelectorAll("a.nav-link");
-  navLinks.forEach((link) => {
-    link.addEventListener("click", function (e) {
-      e.preventDefault();
-      const target = document.querySelector(this.getAttribute("href"));
-      if (target) {
-        window.scrollTo({
-          top: target.offsetTop - 70,
-          behavior: "smooth",
-        });
-      }
-    });
-  });
-});
-
+// members.js
 
 document.addEventListener("DOMContentLoaded", () => {
   const teamMembers = [
     {
       img: "images/members/ovi.jpg",
       name: "ইঞ্জিনিয়ার বাশার অভি",
-      role: "আহবায়ক",
+      role: "আহবায়ক",
     },
     {
       img: "images/members/sajib.jpg",
       name: "আবু সাঈদ সজিব",
-      role: "যুগ্ম আহবায়ক",
+      role: "যুগ্ম আহবায়ক",
     },
     {
       img: "images/members/abdullah.jpg",
       name: "মাওলানা আবদুল্লাহ",
-      role: "যুগ্ম আহবায়ক",
+      role: "যুগ্ম আহবায়ক",
     },
     {
       img: "images/members/rs_rashed.jpg",
       name: "আর এস রাশেদ",
-      role: "যুগ্ম আহবায়ক",
+      role: "যুগ্ম আহবায়ক",
     },
     {
       img: "images/members/sakib.jpg",
@@ -109,4 +91,4 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
     teamContainer.appendChild(memberDiv);
   });
-});
+}); 
